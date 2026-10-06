@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --coppel-blue: #005baa;
+    --coppel-blue-dark: #004585;
+    --coppel-yellow: #ffd100;
+    --coppel-yellow-hover: #f5c400;
+    --coppel-dark: #0b2038;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #f1f5f9;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+}
+
+/* Custom kiosk styling */
+.coppel-gradient-header {
+  background: linear-gradient(135deg, #ffd100 0%, #ffdf33 100%);
+}
+
+.coppel-blue-gradient {
+  background: linear-gradient(180deg, #005baa 0%, #004787 100%);
+}
+
+/* Custom scrollbar for kiosk touch flow */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

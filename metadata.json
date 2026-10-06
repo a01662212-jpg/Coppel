@@ -1,0 +1,6 @@
+{
+  "name": "Kiosco Digital Coppel Telefonía",
+  "description": "Kiosco de autoservicio interactivo para consulta de renovación, valuación de canje de celular y catálogo con crédito Coppel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
